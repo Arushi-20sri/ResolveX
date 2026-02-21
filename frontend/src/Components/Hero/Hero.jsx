@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero = () => {
+const Hero = ({ onGetStartedClick }) => {
     return (
         <section className="hero">
             <div className="hero-overlay"></div>
@@ -14,11 +14,8 @@ const Hero = () => {
                     streamline your service delivery and boost customer satisfaction
                 </p>
                 <div className="hero-buttons">
-                    <button className="btn btn-primary">
+                    <button className="btn btn-primary" onClick={onGetStartedClick}>
                         Get Started
-                    </button>
-                    <button className="btn btn-secondary">
-                        Learn More
                     </button>
                 </div>
             </div>

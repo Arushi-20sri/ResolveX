@@ -2,13 +2,14 @@
 
 .header {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
     padding: 0;
     margin: 0;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid #e5e7eb;
+    height: 110px;
 }
 
 .header-container {
@@ -17,8 +18,7 @@
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 50px;
-    min-height: 50px;
+    min-height: 25px;
 }
 
 /* ==================== LOGO SECTION ==================== */
@@ -136,7 +136,15 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(
+        135deg,
+        #2563EB 0%,
+        #2563EB 35%,
+        #2563EB 5%,
+        #F5A623 75%,
+        #D67E13 100%
+    );
+    /* background: linear-gradient(135deg, #667eea 0%, #4b58a2 100%); */
 }
 
 /* ==================== LOGOUT BUTTON ==================== */

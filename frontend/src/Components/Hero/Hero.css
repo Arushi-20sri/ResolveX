@@ -102,23 +102,6 @@
     transform: translateY(-1px);
 }
 
-.btn-secondary {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-.btn-secondary:hover {
-    background: white;
-    color: #1a1a2e;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.3);
-}
-
-.btn-secondary:active {
-    transform: translateY(-1px);
-}
-
 /* ==================== HERO STATS ==================== */
 
 .hero-stats {
